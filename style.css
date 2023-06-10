@@ -601,3 +601,8 @@ margin: 20px;
         width: 100%;
     }
 }
+@media screen and (max-width:360px){
+ .intro{
+    height: 110vh;
+ }
+}
