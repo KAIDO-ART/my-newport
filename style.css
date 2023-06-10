@@ -567,7 +567,7 @@ margin: 20px;
     }
     .main-projects .finished-p{
         display: flex;
-        flex-direction: column;
+       flex-wrap: wrap;
           justify-content: center;
         align-items: center;
     }
@@ -578,7 +578,7 @@ margin: 20px;
         margin-bottom: 20px;
     }
     .temp .img-body{
-        width: 100%;
+        width: 350px;
         height: 370px;
         margin-bottom: 5px;
     }
@@ -587,11 +587,10 @@ margin: 20px;
         margin-bottom: 20px;
     }
     #temp2 .img-body{
-        width: 100%;
+        width: 350px;
         height: 450px;
         margin-bottom: 5px;
     }
-  
       .temp .detail{
         width: 100%;
         display: flex;
