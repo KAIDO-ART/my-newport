@@ -567,27 +567,27 @@ margin: 20px;
     }
     .main-projects .finished-p{
         display: flex;
-       flex-wrap: wrap;
-          justify-content: center;
+      flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
     }
     .finished-p .temp{
-        width: 100%;
+        width: 340px;
         display: flex;
         flex-direction: column;
         margin-bottom: 20px;
     }
     .temp .img-body{
-        width: 350px;
+        width: 340px;
         height: 370px;
         margin-bottom: 5px;
     }
     .finished-p #temp2{
-        width: 100%;
+        width: 340px;
         margin-bottom: 20px;
     }
     #temp2 .img-body{
-        width: 350px;
+        width: 340px;
         height: 450px;
         margin-bottom: 5px;
     }
