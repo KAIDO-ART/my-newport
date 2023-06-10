@@ -520,6 +520,8 @@ margin: 20px;
 .main-projects .finished-p{
     display: flex;
    flex-wrap: wrap;
+      justify-content: center;
+        align-items: center;
 }
 .first-intro h2{
     font-size: 60px;
@@ -566,6 +568,8 @@ margin: 20px;
     .main-projects .finished-p{
         display: flex;
         flex-direction: column;
+          justify-content: center;
+        align-items: center;
     }
     .finished-p .temp{
         width: 100%;
