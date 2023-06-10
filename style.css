@@ -614,5 +614,8 @@ margin: 20px;
     align-items: flex-start;
     padding: 0; 
 }
+        .img-body img{
+        height: 200px;
+    }
 }
 
