@@ -600,9 +600,13 @@ margin: 20px;
     .main-skill .skill-year{
         width: 100%;
     }
-}
-@media screen and (max-width:360px){
- .intro{
-    height: 110vh;
+     .main-intro .first-intro{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin-top: 70px;
  }
 }
+
