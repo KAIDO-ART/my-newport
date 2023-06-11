@@ -405,12 +405,17 @@ color: beige;
 .main-contact{
     width: 90%;
     display: flex;
-    justify-content: flex-start;
-    
-    flex-direction: column;
+ justify-content: center;
+ align-items: center;
     margin: 100px 0;
 }
-.main-contact .con-title{
+.first-contact{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.main-contact .first-contact .con-title{
     display: flex;
     justify-content: flex-start;
     margin-bottom: 5px;
@@ -424,23 +429,41 @@ color: beige;
     color: beige;
     border: 0.5px solid beige;
 }
-.main-contact h2{
+.first-contact h2{
     font-size: 50px;
     color: beige;
  
     margin-bottom: 10px;
 }
-.main-contact p{
+.first-contact p{
     font-size: 15px;
     /* font-weight: bold; */
    
     margin-bottom: 40px;
     color: beige;
 }
-.main-contact a{
+.first-contact a{
     font-size: 35px;
     color: beige;
     text-decoration: underline;
+}
+.main-contact .gmail{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gmail a{
+    font-size: 70px;
+    padding: 1.5rem 1.9rem;
+    border-radius: 30px;
+    background: black;
+    color: beige;
+    transition: 1.5s ease;
+}
+.gmail a:hover{
+    transform: translateY(-8px);
+    background: linear-gradient(71deg, rgba(39,119,18,1) 25%, rgba(177,13,8,1) 52%, rgba(210,212,10,1) 77%);
 }
 
 @media screen and (max-width:770px){
@@ -616,6 +639,19 @@ margin: 20px;
 }
         .img-body img{
         height: 200px;
+    }
+        .main-contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-contact .first-contact{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .main-contact .gmail{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
     }
 }
 
