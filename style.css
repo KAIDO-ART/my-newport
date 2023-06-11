@@ -321,7 +321,7 @@ color: beige;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    transition: 1.5s ease;
+    transition: 1s ease;
 }
 .img-body:hover .img-links{
     right: 0;
